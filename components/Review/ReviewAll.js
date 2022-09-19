@@ -1,16 +1,16 @@
-import React from 'react';
+import React from "react";
 import {
-    CarouselProvider,
-    Slider,
-    Slide,
-    ButtonBack,
-    ButtonNext,
-  } from "pure-react-carousel";
-  import "pure-react-carousel/dist/react-carousel.es.css";
+  CarouselProvider,
+  Slider,
+  Slide,
+  ButtonBack,
+  ButtonNext,
+} from "pure-react-carousel";
+import "pure-react-carousel/dist/react-carousel.es.css";
 const ReviewAll = () => {
-    return (
-        <div>
-            <div>
+  return (
+    <div>
+      <div>
         <div className="flex items-center justify-between h-full w-full absolute z-0">
           <div className="w-1/3 bg-white h-full" />
           <div className="w-4/6 ml-16 bg-gray-100 h-full" />
@@ -30,7 +30,7 @@ const ReviewAll = () => {
               What our customers are saying
             </h1>
             <Slider>
-            <Slide index={0} tabIndex="null">
+              <Slide index={0} tabIndex="null">
                 <div className="flex">
                   <div className="mt-14 md:flex">
                     <div className="relative lg:w-1/2 sm:w-96 xl:h-96 h-80">
@@ -69,8 +69,8 @@ const ReviewAll = () => {
                     </div>
                   </div>
                 </div>
-              </Slide> 
-                   
+              </Slide>
+
               <Slide index={1}>
                 <div
                   className="flex relative"
@@ -141,8 +141,8 @@ const ReviewAll = () => {
           </CarouselProvider>
         </div>
       </div>
-        </div>
-    );
+    </div>
+  );
 };
 
 export default ReviewAll;

@@ -3,7 +3,7 @@ import ReviewAll from "./ReviewAll";
 
 const Review = () => {
   return (
-    <div>
+    <div className="mt-20">
       <h1 className="text-center text-2xl font-bold mt-2 uppercase text-orange-500">
         All Review
       </h1>

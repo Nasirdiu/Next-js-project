@@ -17,7 +17,7 @@ const Hotel = () => {
       <div className="flex justify-center">
         <progress className="progress  w-44 mt-2 bg-orange-700"></progress>
       </div>
-      <div className="grid grid-cols-1 lg:grid-cols-3 gap-4 px-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-5">
         {hotel.map((hotels) => (
           <HotelBooking key={hotels.id} hotels={hotels}></HotelBooking>
         ))}

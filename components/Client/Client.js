@@ -9,6 +9,7 @@ const Client = () => {
       <div className="flex justify-center">
         <progress className="progress  w-44 mt-2 bg-orange-700"></progress>
       </div>
+      
     </div>
   );
 };
