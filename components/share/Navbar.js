@@ -4,7 +4,7 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <div className="navbar bg-base-100">
+      <div className="navbar bg-black text-white">
         <div className="navbar-start">
           <div className="dropdown">
             <label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -55,41 +55,39 @@ const Navbar = () => {
               </li>
             </ul>
           </div>
-       
-            <Link href="/">
+
+          <Link href="/">
             <a className="btn btn-ghost normal-case text-xl">Next</a>
-            </Link>
-        
-          
+          </Link>
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
-          <li>
-                <Link href="/">
-                  <a>Home</a>
-                </Link>
-              </li>
+            <li>
+              <Link href="/">
+                <a>Home</a>
+              </Link>
+            </li>
 
-              <li>
-                <Link href="/blog">
-                  <a>Blog</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/contact">
-                  <a>Contact</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/about">
-                  <a>About</a>
-                </Link>
-              </li>
-              <li>
-                <Link href="/login">
-                  <a>Login</a>
-                </Link>
-              </li>
+            <li>
+              <Link href="/blog">
+                <a>Blog</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/contact">
+                <a>Contact</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/about">
+                <a>About</a>
+              </Link>
+            </li>
+            <li>
+              <Link href="/login">
+                <a>Login</a>
+              </Link>
+            </li>
           </ul>
         </div>
         {/* <div className="">
