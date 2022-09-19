@@ -1,5 +1,5 @@
-import Link from 'next/link';
-import React from 'react';
+import Link from "next/link";
+import React from "react";
 
 const Navbar = () => {
   return (
@@ -27,57 +27,74 @@ const Navbar = () => {
               tabIndex="0"
               className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52"
             >
-              <Link href="/">
-                <li>
+              <li>
+                <Link href="/">
                   <a>Home</a>
-                </li>
-              </Link>
-              <Link href="/">
-                <li>
-                  <a>Product</a>
-                </li>
-              </Link>
-              <Link href="/">
-                <li>
+                </Link>
+              </li>
+
+              <li>
+                <Link href="/blog">
+                  <a>Blog</a>
+                </Link>
+              </li>
+              <li>
+                <Link href="/contact">
                   <a>Contact</a>
-                </li>
-              </Link>
-              <Link href="/">
-                <li>
+                </Link>
+              </li>
+              <li>
+                <Link href="/about">
                   <a>About</a>
-                </li>
-              </Link>
+                </Link>
+              </li>
+              <li>
+                <Link href="/login">
+                  <a>Login</a>
+                </Link>
+              </li>
             </ul>
           </div>
-          <a className="btn btn-ghost normal-case text-xl">Amazon</a>
+       
+            <Link href="/">
+            <a className="btn btn-ghost normal-case text-xl">Next</a>
+            </Link>
+        
+          
         </div>
         <div className="navbar-end hidden lg:flex">
           <ul className="menu menu-horizontal p-0">
-            <Link href="/">
-              <li>
-                <a>Home</a>
+          <li>
+                <Link href="/">
+                  <a>Home</a>
+                </Link>
               </li>
-            </Link>
-            <Link href="/">
+
               <li>
-                <a>Product</a>
+                <Link href="/blog">
+                  <a>Blog</a>
+                </Link>
               </li>
-            </Link>
-            <Link href="/">
               <li>
-                <a>Contact</a>
+                <Link href="/contact">
+                  <a>Contact</a>
+                </Link>
               </li>
-            </Link>
-            <Link href="/">
               <li>
-                <a>About</a>
+                <Link href="/about">
+                  <a>About</a>
+                </Link>
               </li>
-            </Link>
+              <li>
+                <Link href="/login">
+                  <a>Login</a>
+                </Link>
+              </li>
           </ul>
         </div>
-        <div className="">
+        {/* <div className="">
           <a className="btn">Sing Up</a>
-        </div>
+        </div> */}
       </div>
     </div>
   );
