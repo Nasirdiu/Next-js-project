@@ -14,12 +14,14 @@ export default function Home() {
         <div className='bg-black'>
         <Banner></Banner>
           <Images/>
-          
-        </div>
-        <Hotel/>
+          <Hotel/>
+          <div className='bg-white'>
           <Review/>
+          </div>
           <Client/>
           <Footer></Footer> 
+        </div>
+        
     </div>
   )
 }
