@@ -57,7 +57,7 @@ const Navbar = () => {
           </div>
 
           <Link href="/">
-            <a className="btn btn-ghost normal-case text-xl">Next</a>
+            <a className="btn btn-ghost normal-case text-xl">Next Tour</a>
           </Link>
         </div>
         <div className="navbar-end hidden lg:flex">

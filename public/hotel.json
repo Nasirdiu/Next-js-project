@@ -1,0 +1,69 @@
+[
+    {
+      "id": 1,
+      "name": "Royel",
+      "img": "https://avatars.mds.yandex.net/i?id=30e5eaac30980b4354f76943f804442d-4140047-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    },
+    
+    {
+      "id": 2,
+      "name": "saymon",
+      "img": "https://avatars.mds.yandex.net/i?id=fc718571e27f8f81842af843ea76f9d5-4390495-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    },
+    
+    {
+      "id": 3,
+      "name": "saymon",
+      "img": "https://avatars.mds.yandex.net/i?id=247490bd9ec2e667b78b044909dfa0ac-4435263-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    },
+    
+    {
+      "id": 4,
+      "name": "saymon",
+      "img": "https://avatars.mds.yandex.net/i?id=d242e26f2442cb867cfe14206a101273-5256019-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    },
+    
+    {
+      "id": 5,
+      "name": "Royel",
+      "img": "https://avatars.mds.yandex.net/i?id=8879217cde445d432d3765b5f95709f0-4470198-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    },
+    
+    {
+      "id": 6,
+      "name": "Royel",
+      "img": "https://avatars.mds.yandex.net/i?id=0e5f1408fe61f81c94eca87dda910f35-5696766-images-thumbs&n=13&exp=1",
+      
+      "description": "In publishing and graphic design, Lorem ipsum is a placeholder text commonly used to demonstrate the visual form of a document or a typeface without",
+      "regular_price":"15699",
+      "sale_price":"15699",
+      "stock":200
+    }
+    
+    
+  ]

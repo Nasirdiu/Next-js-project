@@ -1,10 +1,10 @@
 import React from "react";
 
-const Images = () => {
+const Hotel = () => {
   return (
     <div>
       <h1 className="text-center text-2xl font-bold mt-2 uppercase text-orange-500">
-        photo <span className="text-white">gallery</span>
+        Hotel <span className="text-white">Booking</span>
       </h1>
       <div className="flex justify-center">
         <progress className="progress  w-44 mt-2 bg-orange-700"></progress>
@@ -13,4 +13,4 @@ const Images = () => {
   );
 };
 
-export default Images;
+export default Hotel;
