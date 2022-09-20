@@ -8,7 +8,7 @@ const Hotel = () => {
       .then((res) => res.json())
       .then((data) => setHotel(data));
   }, []);
-  console.log(hotel);
+  // console.log(hotel);
   return (
     <div className="mt-10">
       <h1 className="text-center text-2xl font-bold mt-2 uppercase text-orange-500">
