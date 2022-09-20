@@ -59,7 +59,7 @@ const about = () => {
                 />
                 <img
                   className="md:hidden block"
-                  src="https://i.ibb.co/zHjXqg4/Rectangle-118.png"
+                  src="https://i.ibb.co/fM8387G/IMG-20200214-002912-487.jpg"
                   alt="Alexa featured Img"
                 />
                 <p className="font-medium text-xl leading-5 text-gray-800 mt-4">
