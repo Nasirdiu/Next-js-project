@@ -3,7 +3,7 @@ import React from "react";
 const HotelBooking = ({ hotels }) => {
   return (
     <div className="mt-5">
-      <div className="card card-compact w-96 bg-base-100 shadow-xl">
+      <div className="card card-compact w-96 bg-base-100 shadow-xl hover:bg-slate-400">
         <figure>
           <img src={hotels.img} alt="" />
         </figure>

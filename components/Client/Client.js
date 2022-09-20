@@ -7,7 +7,7 @@ const Client = () => {
         Our Busniess <span className="text-white">Summery</span>
       </h1>
       <div className="flex justify-center">
-        <progress className="progress  w-44 mt-2 bg-orange-700"></progress>
+        <progress className="progress  w-64 mt-2 bg-orange-700"></progress>
       </div>
       <div> 
       <div className="bg-black text-white mt-5 md:px-32 ">

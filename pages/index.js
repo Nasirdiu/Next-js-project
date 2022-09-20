@@ -1,4 +1,5 @@
 import Client from "../components/Client/Client";
+import Discount from "../components/Discount/Discount";
 import Banner from "../components/Home/Banner";
 import Hotel from "../components/Hotel/Hotel";
 import Images from "../components/images/Images";
@@ -17,6 +18,7 @@ export default function Home() {
 
         <Images />
         <Hotel />
+        <Discount></Discount>
         <div className="bg-white">
           <Review />
         </div>
