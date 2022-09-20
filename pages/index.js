@@ -7,8 +7,13 @@ import Review from "../components/Review/Review";
 import Scroll from "../components/Scroll/Scroll";
 import Footer from "../components/share/Footer";
 import Navbar from "../components/share/Navbar";
-
+import React, { useEffect, useState } from "react";
+import AOS from "aos";
+import "aos/dist/aos.css";
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+  }, []);
   return (
     <div>
       <Navbar />
@@ -26,6 +31,7 @@ export default function Home() {
         <Footer></Footer>
         <Scroll />
       </div>
+      
     </div>
   );
 }

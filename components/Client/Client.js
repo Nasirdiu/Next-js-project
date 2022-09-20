@@ -10,7 +10,9 @@ const Client = () => {
         <progress className="progress  w-64 mt-2 bg-orange-700"></progress>
       </div>
       <div> 
-      <div className="bg-black text-white mt-5 md:px-32 ">
+      <div data-aos="zoom-in"
+            data-aos-duration="3000"
+             className="bg-black text-white mt-5 md:px-32 ">
         <div className="grid grid-cols-1 md:grid-cols-3 py-3 ">
           <div className="count-title text-center bg-orange-500 p-5 w-2/4 rounded-md">
             <div className="flex justify-center text-4xl font-bold">

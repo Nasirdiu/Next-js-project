@@ -5,7 +5,9 @@ const Footer = () => {
     <div className="bg-slate-200 mt-20">
       <div className="mx-auto container xl:px-20 lg:px-12 sm:px-6 px-4 px-4 py-12">
         <div className="flex flex-col items-center justify-center">
-          <div className="text-3xl font-bold">
+          <div data-aos="zoom-in"
+            data-aos-duration="3000"
+             className="text-3xl font-bold">
             <h1>Next Tour</h1>
           </div>
           <div className="flex flex-wrap sm:gap-10 gap-8 items-center justify-center mt-8">
@@ -80,7 +82,8 @@ const Footer = () => {
             </div>
           </div>
           <div className="flex items-center mt-6">
-            <p className="text-base leading-4 text-gray-800">
+            <p 
+             className="text-base leading-4 text-gray-800">
               2022 <span className="font-semibold">Next Tour</span>
             </p>
             <div className="border-l border-gray-800 pl-2 ml-2">

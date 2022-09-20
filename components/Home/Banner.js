@@ -12,13 +12,17 @@ const Banner = () => {
         <div className="hero-overlay "></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md">
-            <h1 className="mb-5 text-5xl font-bold">Traveling To Cox Bazar</h1>
+            <h1 data-aos="zoom-in"
+            data-aos-duration="3000"
+             className="mb-5 text-5xl font-bold">Traveling To Cox Bazar</h1>
             <p className="mb-5 ">
               Provident cupiditate voluptatem et in. Quaerat fugiat ut assumenda
               excepturi exercitationem quasi. In deleniti eaque aut repudiandae
               et a id nisi.
             </p>
-            <button className="btn btn-primary">Hotel Booking Now</button>
+            <button
+            
+            className="btn btn-primary">Hotel Booking Now</button>
           </div>
         </div>
       </div>
