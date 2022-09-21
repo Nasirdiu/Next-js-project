@@ -20,7 +20,7 @@ const Images = () => {
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 px-5">
         {image.map((images) => (
-          <ImageFile key={"images.id"} images={images}>
+          <ImageFile key={images.id} images={images}>
             {" "}
           </ImageFile>
         ))}
