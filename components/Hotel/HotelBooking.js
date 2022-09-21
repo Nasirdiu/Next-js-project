@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 
 const HotelBooking = ({ hotels }) => {
@@ -31,7 +32,10 @@ const HotelBooking = ({ hotels }) => {
           <div data-aos="zoom-in"
             data-aos-duration="3000"
              className="card-actions justify-end">
-            <button className="btn btn-sm btn-secondary">Buy Now</button>
+              <Link href={'/route/' + hotels.id}>
+              <button className="btn btn-sm btn-secondary">Booking Now</button>
+              </Link>
+            
           </div>
         </div>
       </div>

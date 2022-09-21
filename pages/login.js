@@ -1,3 +1,4 @@
+import Link from "next/link";
 import React from "react";
 import Scroll from "../components/Scroll/Scroll";
 import Footer from "../components/share/Footer";
@@ -7,6 +8,7 @@ const login = () => {
   return (
     <div>
       <Navbar></Navbar>
+      <h1 className="text-3xl text-orange-500 text-center font-bold mt-5">Login</h1>
       <section class="h-screen">
         <div class="container px-6 py-12 h-full">
           <div class="flex justify-center items-center flex-wrap h-full g-6 text-gray-800">
@@ -69,13 +71,15 @@ const login = () => {
                   data-mdb-ripple="true"
                   data-mdb-ripple-color="light"
                 >
-                  Sign in
+                  login in
                 </button>
 
                 <div class="flex items-center my-4 before:flex-1 before:border-t before:border-gray-300 before:mt-0.5 after:flex-1 after:border-t after:border-gray-300 after:mt-0.5">
                   <p class="text-center font-semibold mx-4 mb-0">OR</p>
                 </div>
-
+                <Link href='/singin'>
+                  <button className="btn btn-secondary mb-5 w-full">First Sing Up</button>
+                  </Link>
                 <a
                   class="px-7 py-3 text-white font-medium text-sm leading-snug uppercase rounded shadow-md hover:shadow-lg focus:shadow-lg focus:outline-none focus:ring-0 active:shadow-lg transition duration-150 ease-in-out w-full flex justify-center items-center mb-3"
                   style={{backgroundColor: '#3b5998'}}
